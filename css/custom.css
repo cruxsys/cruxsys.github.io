@@ -1,0 +1,121 @@
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+background-color:transparent;
+font-size: 1.7em;
+
+color: #000;
+}
+
+.sitename {
+font-family: 'Cinzel', serif;	
+margin: 5px;
+color: #255494;
+
+}
+
+.caption {
+font-family: 'Alegreya SC', serif;
+margin: 5px;
+padding: 10px;
+color: #7FB06F;
+}
+
+.red {
+color: #ff0000;
+}
+
+.nav-cruxsys
+{
+background-color: #FBFBF9;
+position: fixed;
+top: 0;
+font-size: 0.8em;
+border-top: 1px solid #255494;
+border-bottom: 1px solid #255494;
+color: #255494;
+padding: 10px;	
+text-transform: uppercase;
+letter-spacing: 3px;
+z-index: 100;
+width: 100%;
+clear: both;
+}
+
+.nav-cruxsys a {
+text-decoration: none;
+
+}
+
+.nav-cruxsys a:hover
+{
+text-decoration: underline;
+}
+
+.aboutus {
+padding: 50px 0;
+opacity: 0.9;
+background: #D3E0ED url(../images/aboutus.jpg) top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+min-height: 100vh;
+color: #ECBE5D;
+
+}
+.services {
+padding: 50px 0;	
+background: #DAE0EC;
+opacity: 0.8;
+min-height: 100vh;
+}
+
+.services h3 {
+color: #7F8698;
+}
+
+.block {
+display: block;
+}
+
+i.block {
+font-size: 5em;
+color: #84B37C;
+}
+
+.start {
+padding: 50px 0;	
+min-height: 100vh;
+margin-top: 50px;
+}
+
+.contact {
+padding: 50px 0;	
+min-height: 100vh;
+margin-top: 50px;
+}
+
+.values li {
+list-style: none;
+margin: 15px 0;
+}
+
+li:before {    
+font-family: 'FontAwesome';
+content: '\f087';
+margin:0 5px 0 -15px;
+color: #FAD160;
+}
+
+h3 {
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+}
+
