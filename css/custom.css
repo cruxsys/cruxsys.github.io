@@ -122,3 +122,17 @@ text-transform: uppercase;
 #message {
 height: 50vh;
 }
+
+.borderc {
+	border: 1px solid #CCC;
+	
+}
+
+.thankyou {
+	font-family: 'Pacifico', cursive;
+	padding:5em;
+	font-size: 1.5em;
+	
+	vertical-align: middle;
+
+}
